@@ -30,11 +30,12 @@ header {
 }
 
 .hero {
-    height: 30em;
+    height: 50em;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: url(layout-01-assets/img11.jpg);
+    background-repeat: no-repeat;
 }
