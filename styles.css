@@ -43,6 +43,7 @@ header {
     background-image: url(layout-01-assets/img11.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 4em;
 }
 
 .hero h1 {
