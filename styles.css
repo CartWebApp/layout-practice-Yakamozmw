@@ -94,14 +94,18 @@ header {
     font-size: 0.9em;
 }
 
+.articles a {
+    display: inline;
+}
+
 .green-Article {
-    flex-basis: 10%
+    flex-basis: 10%;
 }
 
 .blue-Article {
-    flex-basis: 10%
+    flex-basis: 10%;
 }
 
 .red-Article {
-    flex-basis: 10%
+    flex-basis: 10%;
 }
