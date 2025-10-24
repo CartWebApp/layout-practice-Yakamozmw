@@ -112,8 +112,12 @@ header {
     margin-bottom: 1.5em;
 }
 
+.articles article img {
+    width: 100%;
+}
+
 .green-Article, .blue-Article, .red-Article{
-    flex-basis: 10%;
+    flex-basis: 31%;
 
 }
 
@@ -145,7 +149,7 @@ header {
 }
 
 .gray-Article {
-    flex-basis: 15%;
+    flex-basis: 47.5%;
 }
 
 .gray-Article a{
@@ -263,4 +267,48 @@ header {
 /*Contact Section*/
 .Contact {
     background-image: url(layout-01-assets/img14.jpg);
+}
+
+.Contact .grid-area {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "header header"
+    "paragraph paragraph"
+    "name message"
+    "email message"
+    "subject message"
+    ". submit";
+    row-gap: 15px;
+    column-gap: 30px;
+}
+
+.Contact h2 {
+    grid-area: header;
+    text-align: center;
+}
+
+.Contact p {
+    grid-area: paragraph;
+}
+
+input[name="name"] {
+    grid-area: name;
+}
+
+input[name="email"] {
+    grid-area: email;
+}
+
+input[name="subject"] {
+    grid-area: subject;
+}
+
+textarea .message {
+    text-align: start;
+    grid-area: message;
 }
